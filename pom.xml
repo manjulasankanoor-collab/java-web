@@ -52,7 +52,7 @@
          <distributionManagement>
 <snapshotRepository>
 <id>nexus</id>
-<url>http://nexus:8081/repository/maven-snapshots-docker/</url>
+<url>http://nexus:8082/repository/maven-snapshots-docker/</url>
 </snapshotRepository>
 </distributionManagement>
 
@@ -80,5 +80,6 @@
   </build>
 
 </project>
+
 
 
