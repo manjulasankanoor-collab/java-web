@@ -49,6 +49,13 @@
     </dependency>
   </dependencies>
 
+         <distributionManagement>
+<snapshotRepository>
+<id>nexus</id>
+<url>http://nexus:8081/repository/maven-snapshots-docker/</url>
+</snapshotRepository>
+</distributionManagement>
+
   <build>
     <finalName>webapp</finalName>
     <plugins>
@@ -73,4 +80,5 @@
   </build>
 
 </project>
+
 
